@@ -19,11 +19,12 @@ class Homepage extends StatelessWidget {
       home: SafeArea(
         child: Scaffold(
           body: Column(
+
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const CircleAvatar(
                 radius: 60,
-                backgroundColor: Colors.blue,
+                
                 backgroundImage: AssetImage(
                   'assets/images/aishvi.png'
                   
@@ -87,7 +88,7 @@ class Homepage extends StatelessWidget {
               ),
               GestureDetector(
                 onTap: () {
-                  final Uri _url = Uri.parse('https://www.linkedin.com/');
+                  final Uri _url = Uri.parse('https://www.linkedin.com/in/aishvi-guleria-09a04222b/');
                   _launchUrl(_url);
                 },
                 child: Container(
